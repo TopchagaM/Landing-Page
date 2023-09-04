@@ -171,19 +171,23 @@ footer{
 
 @media screen and (max-width: 750px){
 
+    
+
     *{
         box-sizing: border-box;
     }
 
-    body{
+    .container{
         width: 100%;
     }
 
     #top-part{
         height: auto;
+        width: 100%;
     }
 
     #header{
+        width: 100%;
         flex-direction: column;
         align-items: center;
         height: auto;
@@ -210,9 +214,12 @@ footer{
 
     .header-main{
         flex-direction: column;
+        width: 100%;
+        flex-wrap: wrap;
     }
 
     #header-main-text{
+        width: 85%;
         text-align: center;
     }
 
@@ -223,10 +230,15 @@ footer{
     #header-main-image{
         margin-bottom: 50px;
         border-radius: 15%;
+        width: 90%;
     }
 
     #bottom-part{
         flex-direction: column;
+    }
+
+    #bottom-title{
+        margin: 50px 0 50px 0;
     }
 
     #bottom-pictures{
@@ -234,6 +246,14 @@ footer{
         align-items: center;
     }
 
+    #quote{
+        width: 100%;
+    }
+
+    #quote-text{
+        padding: 30px 0 30px 0;
+    }
+    
     #quote-narrator{
         text-align: center;
         margin: 0;
@@ -243,10 +263,12 @@ footer{
         margin: 0;
         height: auto;
         flex-direction: column;
+        width: 100%;
     }
 
     #card-left-text{
         padding: 50px 0 50px 0;
+        width: 95%;
     }
 
     #card-top-text{
@@ -263,5 +285,9 @@ footer{
 
     button{
         font-size: 30px;
+    }
+
+    footer{
+        width: 100%;
     }
 }
