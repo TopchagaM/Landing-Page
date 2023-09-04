@@ -48,6 +48,7 @@ nav ul{
     flex-wrap: wrap;
     color: white;
     width: 500px;
+    text-align: left;
 }
 
 #title{
@@ -63,7 +64,6 @@ nav ul{
 }
 
 #bottom-part{
-    height: 700px;
     display: flex;
     justify-content: center;
 }
@@ -99,3 +99,63 @@ nav ul{
     color: rgb(142,148,157);
     flex-wrap: wrap;
 }
+
+#quote{
+    margin-top: 100px;
+    background-color: rgb(229,231,235);
+}
+
+#quote-text{
+    text-align: center;
+    font-style: italic;
+    font-size: 30px;
+    font-weight: 500;
+    color: rgb(81,89,101);
+    padding: 30px;
+}
+
+#quote-narrator{
+    text-align: end;
+    margin-right: 300px;
+    padding-bottom: 30px;
+    font-size: 20px;
+    font-weight: 900;
+}
+
+#sign-up-card{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 300px;
+    margin-right: 300px;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(56,130,246);
+    align-items: center;
+}
+
+#card-left-text{
+    padding-left: 50px;
+    text-align: center;
+    color: white;
+}
+
+#card-top-text{
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.sign-button{
+    padding-right: 50px;
+}
+
+button{
+    color: #fff;
+    font-family: 'Roboto', arial;
+    border-color: #fff;
+    border-radius: 8px;
+    background-color: #3882F6;
+    padding: 5px 25px;
+    font-size: 15px;
+}
+
